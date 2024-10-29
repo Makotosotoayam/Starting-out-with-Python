@@ -1,5 +1,5 @@
 print("="*25)
-print(Calculating A Triangle
+print("Calculating A Triangle")
 print("="*25)
 
 b = float(input("Insert the base value\t : ")
