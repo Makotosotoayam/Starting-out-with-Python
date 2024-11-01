@@ -11,7 +11,7 @@ volume = lambda p,l,t: (p * l * t)
 keliling = lambda p,l,t: 4 * (p + l + t)
 
 print(f"LUAS\t\t: {luas(p,l,t)} cm2")
-print(f"VULUME\t\t: {volume(p,l,t)} cm2")
+print(f"VOLUME\t\t: {volume(p,l,t)} cm2")
 print(f"KELILING\t: {keliling(p,l,t)} cm2")
 
 
