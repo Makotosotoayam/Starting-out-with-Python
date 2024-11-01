@@ -10,5 +10,5 @@ h = float(input("Insert the height value\t : "))
 area = 1/2 * b * h
 perimeter = s1 + s2 + b
 
-print("The result of the area\t: ",round(area))
-print(" The result of the perimeter\t: ",round(perimeter))
+print("The result of the area\t\t : ",round(area))
+print(" The result of the perimeter\t : ",round(perimeter))
