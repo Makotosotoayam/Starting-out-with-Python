@@ -7,7 +7,7 @@ l = float(input("input the width\t: "))
 t = float(input("input the height\t: "))
 
 surface_a = 2 * (p * l) + (p * t) + (l * t)
-lateral_surface = (2 * t) * (l * w)
+lateral_surface = (2 * t) * (p + l)
 volume = p * l * t
 perimeter = 4 * (p + l + t)
 
