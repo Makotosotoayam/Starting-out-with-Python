@@ -6,12 +6,14 @@ p = float(input("input the length\t: "))
 l = float(input("input the width\t: "))
 t = float(input("input the height\t: "))
 
-surface = 2 * (p * l) + (p * t) + (l * t)
+surface_a = 2 * (p * l) + (p * t) + (l * t)
+lateral_surface = (2 * t) * (l * w)
 volume = p * l * t
-area = 4 * (p + l + t)
+perimeter = 4 * (p + l + t)
 
-print("the result of surface\t: ",round(surface))
-print("the result of volume\t: ",round(volume))
-print("the result of area\t: ",round(area))
+print("the result of surface area\t: ",round(surface_a))
+print("the result of lateral lateral surface\t: ",round(lateral_surface))
+print("the result of volume\t\t: ",round(volume))
+print("the result of perimeter\t\t: ",round(perimeter))
 
 

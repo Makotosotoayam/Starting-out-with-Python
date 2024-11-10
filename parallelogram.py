@@ -1,5 +1,5 @@
 print("="*25)
-print("Calculating A Parallelgram")
+print("Calculating A Parallel0gram")
 print("="*25)
 
 w = float(input("Insert the width : "))
